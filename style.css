@@ -87,7 +87,7 @@ main > section > p {
 
 .texts {
     max-width: 600px;
-    margin: 60px auto;
+    margin: 30px auto 100px auto;
     font-size: large;
     line-height: 2.0;
 }
@@ -96,7 +96,7 @@ main > section > p {
     padding-top: 100px;
     text-transform: uppercase;
     text-align: center;
-    margin: 10px auto;
+    margin: 10px auto 75px auto;
     color: #fcf6ea;
     font-size: xx-large;
 }
@@ -121,7 +121,7 @@ b {
 
 .nest {
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: #fcf6ea;
     font-size: x-large;
 }
