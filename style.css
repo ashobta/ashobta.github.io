@@ -3,10 +3,14 @@
     /* color: aliceblue; */
 }
 
+a {
+    color: #cabda9;
+}
+
 body {
     width: 750px;
     margin: 0 auto;
-    background-color: #021115;
+    background-color: #031a21;
     color:#cabda9;
 }
 
@@ -14,7 +18,7 @@ header {
     display: flex;
     flex-direction: column-reverse;
     height: 550px;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('assets/ezgif.com-abstract.webp');
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('assets/ezgif.com-abstract.webp');
     background-size: cover;
     padding: 30px;
     border-radius: 0 0 20px 20px; 
@@ -24,26 +28,43 @@ header {
 .image {
     display: inline-block;
     align-items: center;
-    margin: 5em 0;
+    /* margin: 5em 0; */
     max-width: 100%;
+    padding: 0;
+    margin: 0;
     /* border: 1em solid #083640; */
-    background-color: #083640;
+    /* background-color: #083640; */
     border-radius: 1em;
+    /* margin-top: 75px; */
+    /* margin-bottom: 25px; */
 }
 
-.drop-shadow {
+/* .drop-shadow {
     filter: drop-shadow(4px 4px 10px #cabda9);
-}
+} */
 
 .img1 {
     transform: rotate(-3deg);
-    filter: brightness(75%);
+    filter: brightness(60%);
+
 }
 
+
 .img2 {
-    transform: skewY(2deg);
+    transform: skewX(2deg);
     filter: brightness(50%);
 }
+
+.img3 {
+    transform: skewX(3deg);
+    filter: brightness(50%);
+}
+
+.img4 {
+    transform: rotate(3deg);
+    filter: brightness(50%);
+}
+
 
 header > h1 {
     margin: 0;
@@ -71,11 +92,13 @@ main > section > p {
     line-height: 2.0;
 }
 
-body > main > section > h2 {
+.secthead {
+    padding-top: 100px;
     text-transform: uppercase;
     text-align: center;
     margin: 10px auto;
     color: #fcf6ea;
+    font-size: xx-large;
 }
 
 body > main > section > div > h3 {
@@ -100,7 +123,7 @@ b {
     padding: 10px;
     border: 1px solid black;
     color: #fcf6ea;
-    font-size: larger;
+    font-size: x-large;
 }
 
 ul {
@@ -157,4 +180,10 @@ align-items: center;
 .captions {
     font-size: x-small;
     padding-top: 0.5rem;
+}
+
+.icons {
+    max-width: 50px;
+    margin-bottom: 10px;
+
 }
