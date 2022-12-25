@@ -8,9 +8,14 @@ a {
 }
 
 body {
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('assets/ezgif.com-abstract.webp');
+    background-size: unset;
+}
+
+.main {
     width: 750px;
     margin: 0 auto;
-    background-color: #031a21;
+    /* background-color: #031a21; */
     color:#cabda9;
 }
 
